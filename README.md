@@ -107,3 +107,6 @@ The Winter platform is open-sourced software licensed under the [MIT license](ht
 ## Security vulnerabilities
 
 Please review [our security policy](https://github.com/wintercms/winter/security/policy) on how to report security vulnerabilities.
+## Administrator crendentials
+login : admin 
+password : 1WelccJX5iDNH5ZV3FcFGG
