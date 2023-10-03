@@ -1,0 +1,53 @@
+[session]
+security = "guest"
+redirect = "workspace/dashboard"
+==
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{this.page.meta_title}} | Pchurn</title>
+
+  <!-- Description Meta -->
+  <meta name="description" content="{{this.page.meta_description}}">
+  <meta name="author" content="Pchurn">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{[
+    'assets/css/style.css',]|theme}}">
+
+
+  {% styles %}
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<div id="huro-app" class="app-wrapper">
+
+    <!--Full pageloader-->
+    <!-- Pageloader -->
+    <div class="pageloader is-full"></div>
+    <div class="infraloader is-full is-active"></div>
+    <div class="auth-wrapper">
+      {% page %}
+    </div>
+
+<!-- jQuery, -->
+<script src="{{[
+  'assets/js/app.js',
+  'assets/js/functions.js',
+  'assets/js/auth.js']|theme}}"></script>
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+{% framework extras %}
+{% scripts %}
+</div>
+</body>
+</html>
