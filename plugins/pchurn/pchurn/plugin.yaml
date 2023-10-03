@@ -1,0 +1,15 @@
+plugin:
+    name: 'pchurn.pchurn::lang.plugin.name'
+    description: 'pchurn.pchurn::lang.plugin.description'
+    author: PCHURN
+    icon: wn-icon-terminal
+    replaces: {  }
+navigation:
+    Prediciton:
+        label: Predicitons
+        url: pchurn/pchurn/predictions
+        icon: icon-connectdevelop
+    ModelPrediction:
+        label: Models
+        url: /pchurn/pchurn/modelsprediction
+        icon: icon-area-chart

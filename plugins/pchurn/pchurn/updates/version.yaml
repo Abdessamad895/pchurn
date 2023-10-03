@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pchurn_pchurn_prediction'
+    - builder_table_create_pchurn_pchurn_prediction.php
+1.0.3:
+    - 'Updated table pchurn_pchurn_prediction'
+    - builder_table_update_pchurn_pchurn_prediction.php
+1.0.4:
+    - 'Updated table pchurn_pchurn_prediction'
+    - builder_table_update_pchurn_pchurn_prediction_2.php
+1.0.5:
+    - 'Created table pchurn_pchurn_model'
+    - builder_table_create_pchurn_pchurn_model.php

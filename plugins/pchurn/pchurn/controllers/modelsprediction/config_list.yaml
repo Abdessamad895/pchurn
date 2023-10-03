@@ -1,0 +1,12 @@
+title: ModelsPrediction
+modelClass: Pchurn\Pchurn\Models\ModelPrediction
+list: $/pchurn/pchurn/models/modelprediction/columns.yaml
+recordUrl: pchurn/pchurn/modelsprediction
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
